@@ -3,6 +3,7 @@
 void setup() {
 	initServer();
 	initLedBut();
+	initAcel();
 }
 
 void loop() {
@@ -17,6 +18,12 @@ void loop() {
 				break;
 			case 'b':
 				cmdBut();
+				break;
+			case 'a':
+				getI2Caddresses();
+				break;
+			case 'r':
+				takeReading();
 				break;
 		}
 	}

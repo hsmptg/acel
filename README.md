@@ -1,4 +1,4 @@
-LedBut
+Acel
 =====
 
-Projeto para controlo dum LED e obtenção do estado dum botão
+Projeto para uso do acelerometro ADXL345
